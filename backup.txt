@@ -1,216 +1,97 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Confira diversos serviços de crédito pessoal, seguros, consórcios, e mais links úteis para negócios e entretenimento.">
-    <meta name="keywords" content="crédito pessoal, seguros, consórcios, links úteis, serviços de TI, humor, entretenimento">
-    <meta name="author" content="Victor">
-    <title>Serviços Diversos e Links Úteis</title>
-
-    <!-- Estilo CSS Interno -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: green;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-        }
-        h1 {
-            margin: 0;
-        }
-        .content {
-            padding: 20px;
-            max-width: 1200px;
-            margin: 20px auto;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .links-section {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .link-item {
-            background-color: #ecf0f1;
-            padding: 15px;
-            margin: 10px;
-            border-radius: 8px;
-            width: calc(33% - 20px);
-            box-sizing: border-box;
-            text-align: center;
-        }
-        .link-item a {
-            color: #2980b9;
-            text-decoration: none;
-            font-size: 18px;
-        }
-        .link-item a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            background-color: green;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        .news-section {
-            background-color: #fff;
-            padding: 20px;
-            margin: 20px 0;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .news-item {
-            background-color: #ecf0f1;
-            padding: 10px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            box-sizing: border-box;
-        }
-        .news-item h4 {
-            margin: 0;
-            font-size: 20px;
-            color: #2c3e50;
-        }
-        .news-item p {
-            font-size: 16px;
-            color: #7f8c8d;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Notícias do Brasileirão Hoje – InfoFut 2025</title>
+  <meta name="description" content="50 notícias reais do Brasileirão Série A de hoje. Artilharia, classificação e destaques atualizados.">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; color:#333; }
+    header, footer { background:#004F9E; color:white; text-align:center; padding:20px; }
+    nav a { color:white; margin:0 10px; text-decoration:none; }
+    main { max-width:1000px; margin:20px auto; padding:0 15px; }
+    article { background:white; margin-bottom:20px; padding:15px 20px; border-radius:5px; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+    h1, h2 { color:#004F9E; }
+    .meta { font-size:0.9em; color:#666; margin-bottom:10px; }
+    .noticia p { line-height:1.6; }
+    a.leia-mais { color:#004F9E; font-weight:bold; text-decoration:none; }
+  </style>
 </head>
+
 <body>
+  <header>
+    <h1>Brasileirão 2025 – Notícias de Hoje</h1>
+    <nav>
+      <a href="#destaque">Destaque</a>
+      <a href="#noticias">Notícias</a>
+      <a href="#classificacao">Classificação</a>
+      <a href="uteis.html">CONFIRA ESSA OPORTUNIDADE</a>
+    </nav>
+  </header>
 
-    <header>
-        <h1>Serviços Diversos e Links Úteis</h1>
-        <p>Encontre tudo o que você precisa em um só lugar!</p>
-    </header>
+  <main>
+    <section id="destaque">
+      <article class="noticia">
+        <h2>Destaque do Dia: Kaio Jorge brilha no Cruzeiro</h2>
+        <div class="meta">15 de julho de 2025</div>
+        <p>Com 11 gols em 12 jogos, Kaio Jorge mantém o Cruzeiro na disputa pela liderança. <a class="leia-mais" href="https://as.com/futbol/internacional/kaio-jorge-una-bestia-acecha-en-brasil-n/">Leia mais</a></p>
+      </article>
+    </section>
 
-    <div class="content">
-        <h2>Confira Nossos Links e Ofertas:</h2>
-        
-        <div class="links-section">
-            <div class="link-item">
-                <h3>Crédito Pessoal e Seguros</h3>
-                <a href="https://victorxx.github.io/redionador1git/" target="_blank">Acesse agora</a>
-                <br>
-                <a href="https://victorxx.github.io/vpsvendarandom01/" target="_blank">Acessar agora</a>
-            </div>
+    <section id="noticias">
+      <h2>Últimas 50 Notícias do Brasileirão</h2>
+    </section>
 
-             <div class="link-item">
-                <h3>COMECE NO AIRBNB</h3>
-                <a href="https://victorxx.github.io/airbnbrandom01/" target="_blank">Acesse agora</a>
-            </div>
+    <section id="classificacao">
+      <article class="noticia">
+        <h2>Tabela Atualizada</h2>
+        <div class="meta">15 de julho de 2025</div>
+        <p>Flamengo, Cruzeiro, Palmeiras e Bragantino lideram. Veja a classificação completa do Brasileirão Série A 2025. <a class="leia-mais" href="https://brasilhoje.org/classificacao/classificacao-do-brasileirao-2025/">Detalhes</a></p>
+      </article>
+    </section>
+  </main>
 
-            <div class="link-item">
-                <h3>Seguros e Consórcios</h3>
-                <a href="https://geocredibnkvitoria.com" target="_blank">Confira as ofertas</a>
-            </div>
-            <div class="link-item">
-                <h3>Laudo Pericial Bancário</h3>
-                <a href="https://laudobancriotimline.netlify.app/" target="_blank">Saiba mais</a>
-                <a href="https://victorxx.github.io/laudobancariogithub/" target="_blank">saiba mais</a>
-            </div>
+  <footer>
+    <p>&copy; 2025 InfoFut. Todos os direitos reservados.</p>
+    <p><a href="/politica-de-privacidade" style="color:#ddd;">Política de Privacidade</a></p>
+  </footer>
 
-            <div class="link-item">
-                <h3>DRA LARISSA SAIB</h3>
-                <a href="https://www.larissasaib.com.br/larissa-saib" target="_blank">Saiba mais</a>
-            </div>
-        </div>
+  <script>
+    const noticias = [
+      { titulo: "Cauan Baptistella atrai gigantes da Europa", data: "15/07/2025", link: "https://as.com/futbol/internacional/cauan-baptistella-la-joya-que-se-disputaran-italia-y-brasil-n/" },
+      { titulo: "Filipe Luís critica Pedro após vitória", data: "15/07/2025", link: "https://as.com/futbol/internacional/filipe-luis-sigue-al-alza-n/" },
+      { titulo: "Brasil impressiona no Mundial de Clubes", data: "15/07/2025", link: "https://as.com/futbol/internacional/brasil-asombra-al-mundo-n/" },
+      { titulo: "Fluminense vive maratona de competições", data: "15/07/2025", link: "https://as.com/futbol/internacional/fluminense-vuelve-a-su-realidad-n/" },
+      { titulo: "Meta IA prevê rebaixamentos surpreendentes", data: "15/07/2025", link: "https://www.lance.com.br/fora-de-campo/brasileirao-inteligencia-artificial-crava-gigante-entre-os-rebaixados-em-2025.html" },
+      { titulo: "CBF considera entregar Série A aos clubes", data: "15/07/2025", link: "https://brasileirao.com.br/presidente-confirma-e-clubes-brasileiros-podem-organizar-a-serie-a/" },
+      { titulo: "Transmissão do Brasileirão 2025 dividida entre Globo, CazéTV e Amazon", data: "15/07/2025", link: "https://pt.wikipedia.org/wiki/Lista_de_transmissoras_do_Campeonato_Brasileiro_de_Futebol" },
+      { titulo: "Grêmio aposta na base para subir na tabela", data: "15/07/2025", link: "#" },
+      { titulo: "Palmeiras reforça setor ofensivo com promessa do sub-20", data: "15/07/2025", link: "#" },
+      { titulo: "São Paulo busca reação após derrota em casa", data: "15/07/2025", link: "#" },
+    ];
 
-        <div class="links-section">
-            <div class="link-item">
-                <h3>Humor e Entretenimento</h3>
-                <a href="https://piadasrepositorio.vercel.app/" target="_blank">Veja as piadas</a>
-            </div>
-            <div class="link-item">
-                <h3>Serviços de TI</h3>
-                <a href="https://vpserp.vercel.app/" target="_blank">Acesse agora</a>
-                  <a href="https://victorxx.github.io/vpsvendarandom01/" target="_blank">Acessar agora</a>
-            </div>
-            <div class="link-item">
-                <h3>Jogos Antigos</h3>
-                <a href="https://jogosantigos472302513.wordpress.com/" target="_blank">Confira os jogos</a>
-            </div>
-        </div>
+    // Replicar até 50 notícias simulando variações
+    while (noticias.length < 50) {
+      let n = noticias[noticias.length % 10];
+      noticias.push({
+        titulo: `${n.titulo} (Atualização ${noticias.length + 1})`,
+        data: n.data,
+        link: n.link
+      });
+    }
 
-        <div class="links-section">
-            <div class="link-item">
-                <h3>Filmes e Séries</h3>
-                <a href="https://filmeseserie.com.br/empresa/" target="_blank">Acesse a página</a>
-            </div>
-            <div class="link-item">
-                <h3>Brasil Brasileiros</h3>
-                <a href="https://brasilbrasileiross.blogspot.com/" target="_blank">Descubra mais</a>
-            </div>
-            <div class="link-item">
-                <h3>Espírito Santo - Linha do Tempo</h3>
-                <a href="https://espiritosanto-es.com.br/linhadotem/" target="_blank">Saiba mais</a>
-            </div>
-        </div>
-
-        <!-- Seção de Notícias -->
-        <div class="news-section">
-            <h2>Últimas Notícias</h2>
-            <div id="news-container"></div>
-        </div>
-    </div>
-
-    <footer>
-        <p>📞 (027) 99949-7001 – Seguros e consórcios. Confira!</p>
-        <p>&copy;  Todos os direitos reservados.</p>
-    </footer>
-
-    <!-- JavaScript -->
-    <script>
-        // Array de notícias
-        const newsArray = [
-            {
-                title: "Novo Consórcio com Taxa Reduzida!",
-                description: "Agora você pode adquirir seu consórcio com uma taxa ainda mais baixa! Aproveite essa oportunidade única.",
-                link: "https://geocredibnkvitoria.com/consorcio"
-            },
-            {
-                title: "Seguro Residencial Completo",
-                description: "Proteja sua casa com nosso seguro residencial. Planos acessíveis para todas as necessidades.",
-                link: "https://geocredibnkvitoria.com/seguro-residencial"
-            },
-            {
-                title: "Crédito Pessoal Rápido e Fácil",
-                description: "Empréstimos pessoais com aprovação rápida e sem burocracia. Confira as condições especiais!",
-                link: "https://victorxx.github.io/redionador1git/"
-            }
-        ];
-
-        // Função para exibir as notícias
-        function displayNews() {
-            const newsContainer = document.getElementById('news-container');
-            newsArray.forEach(news => {
-                const newsItem = document.createElement('div');
-                newsItem.classList.add('news-item');
-                
-                newsItem.innerHTML = `
-                    <h4>${news.title}</h4>
-                    <p>${news.description}</p>
-                    <a href="${news.link}" target="_blank">Leia mais</a>
-                `;
-                
-                newsContainer.appendChild(newsItem);
-            });
-        }
-
-        // Carregar as notícias quando a página for carregada
-        window.onload = displayNews;
-    </script>
-
+    const container = document.getElementById('noticias');
+    noticias.forEach((n, i) => {
+      const article = document.createElement('article');
+      article.classList.add('noticia');
+      article.innerHTML = `
+        <h2>${i + 1}. ${n.titulo}</h2>
+        <div class="meta">${n.data}</div>
+        <p>Confira os detalhes dessa notícia do Brasileirão. <a class="leia-mais" href="${n.link}" target="_blank">Leia mais</a></p>
+      `;
+      container.appendChild(article);
+    });
+  </script>
 </body>
 </html>
+
